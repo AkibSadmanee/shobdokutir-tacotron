@@ -1,0 +1,1 @@
+for f in SLRDATA/wavs_old/* ; do   sox $f -r 22050 "/home/xaiiub/shobdokutir-tacotron/PyTorch/SpeechSynthesis/Tacotron2/SLRDATA/wavs_up/"$f ; done
